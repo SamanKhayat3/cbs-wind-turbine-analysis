@@ -67,6 +67,10 @@ jupyter notebook
 
 ---
 
-## Limitations
+## Assumptions & Limitations
 
-*Note: This analysis does not control for confounding factors such as turbine location, technology, or installation year, which may influence observed performance differences.*
+- Electricity production per rotor area is a valid proxy for efficiency after normalizing for blade size.
+- Averaging over 2010–2024 provides a representative comparison across height classes.
+- Data prior to 2010 is excluded due to lower completeness.
+- Differences within height classes do not dominate the observed trends.
+- Due to data limitations, this analysis does not control for potential confounding factors such as turbine location, technology, or installation year, which may influence the observed performance differences.
